@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Numeral System Converter/task/Numeral_System_Converter-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Numeral System Converter/task/Numeral_System_Converter-task.iml" group="Numeral_System_Converter1/Numeral_System_Converter-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Numeral System Converter/task/Numeral_System_Converter-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Numeral System Converter/task/Numeral_System_Converter-task_main.iml" group="Numeral_System_Converter1/Numeral_System_Converter-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Numeral System Converter/task/Numeral_System_Converter-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Numeral System Converter/task/Numeral_System_Converter-task_test.iml" group="Numeral_System_Converter1/Numeral_System_Converter-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Numeral_System_Converter1.iml" filepath="$PROJECT_DIR$/.idea/modules/Numeral_System_Converter1.iml" group="Numeral_System_Converter1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="Numeral_System_Converter1/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="Numeral_System_Converter1/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="Numeral_System_Converter1/util" />
+    </modules>
+  </component>
+</project>
