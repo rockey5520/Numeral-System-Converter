@@ -108,6 +108,20 @@ files:
         }
     }
   learner_created: false
+- name: src/converter/Main.java
+  visible: true
+  text: "package converter;\n\nimport static java.lang.System.in;\n\nimport java.util.Scanner;\n\
+    \npublic class Main {\n\n  public static void main(String[] args) {\n    //stage\
+    \ 4\n    \n /*   //stage 3\n    Scanner scanner = new Scanner(in);\n    int decInput\
+    \ = scanner.nextInt();\n    int radix = scanner.nextInt();\n    if (radix == 2){\n\
+    \      System.out.println(\"0b\"+Integer.toString(decInput,radix));\n    }else\
+    \ if(radix == 8){\n      System.out.println(\"0\"+Integer.toString(decInput,radix));\n\
+    \    }else if(radix == 16){\n      System.out.println(\"0x\"+Integer.toString(decInput,radix));\n\
+    \    }\n\n\n    //stage 2\n    Scanner scanner = new Scanner(in);\n    int input\
+    \ = scanner.nextInt();\n    System.out.println(Integer.toString(input, 8).charAt(Integer.toString(input,\
+    \ 8).length() - 1));\n\n    //stage 1\n    System.out.println(\"2 is equal to\
+    \ 0b10\");*/\n  }\n}\n"
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/41/stages/217/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 4

@@ -145,6 +145,64 @@ files:
         }
     }
   learner_created: false
+- name: src/converter/Main.java
+  visible: true
+  text: |
+    package converter;
+
+    import static java.lang.System.in;
+
+    import java.util.Scanner;
+
+    public class Main {
+
+      public static void main(String[] args) {
+        //stage 4
+        Scanner sc = new Scanner(System.in);
+        int sourceRadix = sc.nextInt();
+        int sourceNumber = sc.nextInt();
+        int targetRadix = sc.nextInt();
+        String output = "";
+
+        if (sourceRadix == 1 || targetRadix == 1) {
+          if (sourceRadix == 1) {
+            sourceRadix = 10;
+            sourceNumber = String.valueOf(sourceNumber).length();
+            output = Integer.toString(Integer.parseInt(String.valueOf(sourceNumber), sourceRadix), targetRadix);
+          }
+          if (targetRadix == 1) {
+            for (int i = 0; i < Integer.parseInt(String.valueOf(sourceNumber), sourceRadix); i++) {
+              output += '1';
+            }
+          }
+        } else {
+          output = Integer.toString(Integer.parseInt(String.valueOf(sourceNumber), sourceRadix), targetRadix);
+        }
+
+        System.out.println(output);
+     /*   //stage 3
+        Scanner scanner = new Scanner(in);
+        int decInput = scanner.nextInt();
+        int radix = scanner.nextInt();
+        if (radix == 2){
+          System.out.println("0b"+Integer.toString(decInput,radix));
+        }else if(radix == 8){
+          System.out.println("0"+Integer.toString(decInput,radix));
+        }else if(radix == 16){
+          System.out.println("0x"+Integer.toString(decInput,radix));
+        }
+
+
+        //stage 2
+        Scanner scanner = new Scanner(in);
+        int input = scanner.nextInt();
+        System.out.println(Integer.toString(input, 8).charAt(Integer.toString(input, 8).length() - 1));
+
+        //stage 1
+        System.out.println("2 is equal to 0b10");*/
+      }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/41/stages/218/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 5
